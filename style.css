@@ -1,0 +1,42 @@
+body {
+  background: url(fondopiano.jpg);
+  height: 500px;
+}
+
+.keys {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20%;
+}
+
+.key {
+  border:4px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s;
+  width: 100px;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 5px black;
+}
+
+.playing {
+  transform: scale(2);
+  border-color: #ffc600;
+  box-shadow: 0 0 10px #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 40px;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ffc600;
+}
